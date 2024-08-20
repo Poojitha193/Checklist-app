@@ -1,0 +1,109 @@
+/* src/AddNewForm.css */
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+}
+
+.modal-content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 0px 0px 5px 5px;
+    width: 600px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    position: relative;
+}
+
+.modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+	text-align:center;
+	background-color: #333;
+    color: #fff;
+	margin-top:10px;
+	border-radius: 5px 5px 0px 0px;
+}
+
+.modal-header h2 {
+    font-size: 28px;
+	font-family:sans-serif;
+	font-weight: bold;	
+	color: #fff;
+	margin-left:25%;
+}
+
+.close-btn {
+    font-size: 24px;
+    cursor: pointer;
+	margin-right:5%;
+}
+
+.form-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    margin-bottom: 15px;
+	margin-left:10%;
+	width:80%;
+}
+
+.form-group label {
+    font-size: 20px;
+    color: #333;
+	font-family:sans-serif;
+	font-weight: bold;    
+	margin-bottom: 5px;	
+	margin-top: 15px;
+    display: block;
+}
+
+.form-group input {
+    width: 95%;
+    border-radius: 5px;
+	padding:10px;
+	font-size:14px;
+    border: 2px solid #ddd;
+	margin-left:auto;
+	margin-right:auto;
+	background-color:#F0F0F0;
+}
+
+.form-group input ::before{
+    width: 95%;
+    padding: 12px;
+    border-radius: 5px;
+    border: 2px solid #ddd;
+	margin-left:auto;
+	margin-right:auto;
+	background-color:#F0F0F0;
+}
+
+.submit-btn {
+    background-color: #f58220;
+    color: white;
+    padding: 12px;
+    text-align: center;
+    display: block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+	width:20%;
+	margin-left:40%;
+}
+
+.error {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+}
